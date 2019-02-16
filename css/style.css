@@ -70,3 +70,11 @@
     color: white;
     text-decoration: none;
 }
+
+/*-------------------
+    menu-section
+-------------------*/
+
+.menu ul li {
+    text-decoration: none;
+}
