@@ -16,8 +16,6 @@
     background-image: url("../images/bg.jpg");
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
 }
 
 .cover-content {
@@ -75,6 +73,28 @@
     menu-section
 -------------------*/
 
+#menu-section {
+    background: black;
+}
+
 .menu ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 20px 15px;
+    transition: .5s;
+    margin-right: 10px;
+    position: relative;
+    left: 110px;
+}
+
+.menu ul li a{
     text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.menu ul li:hover {
+    background: #1271EE;
+    color: white; 
 }
