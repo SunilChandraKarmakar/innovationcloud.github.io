@@ -15,11 +15,11 @@
 #cover-section {
     background-image: url("../images/bg.jpg");
     background-size: cover;
-    background-position: center center;  
+    background-position: center;
 }
 
 .cover-content {
-    padding: 330px 0px;
+    padding: 300px 0px;
 }
 
 .cover-content h1 {
@@ -39,7 +39,7 @@
     font-size: 17px;
     text-align: center;
     position: relative;
-    top: -74px;
+    top: 0px;
     letter-spacing: 8px;
     text-transform: uppercase;
     font-family: sans-serif;
@@ -51,7 +51,7 @@
     text-align: center;
     background: black;
     position: relative;
-    top: -60px;
+    top: 20px;
     margin: 0px auto;
     padding: 12px 10px;
     font-family: 'Open Sans', sans-serif;
