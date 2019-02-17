@@ -87,7 +87,7 @@
     left: 110px;
 }
 
-.menu ul li a{
+.menu ul li a {
     text-decoration: none;
     color: white;
     font-size: 17px;
@@ -98,3 +98,40 @@
     background: #1271EE;
     color: white; 
 }
+
+/*---------------------
+    cloud-section
+----------------------*/
+
+#cloud-section {
+   
+}
+
+.content-one {
+    width: 50%;
+    float: left;
+    padding: 60px 0px;
+}
+
+.content-one img {
+    width: 200px;
+    height: 150px;
+    position: relative;
+    left: 180px;
+    top: 60px;
+}
+
+.content-one h2 {
+    font-size: 30px;
+    font-family: sans-serif;
+    margin-left: -140px;
+}
+
+.content-one p {
+    margin-top: 30px;
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-left: -140px;
+}
+
+
