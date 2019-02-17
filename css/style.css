@@ -6,6 +6,7 @@
 .container {
     max-width: 1170px;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 /*-------------------
@@ -61,7 +62,6 @@
 .link:hover {
     background: #1271EE;
     color: white;
-    border: 1px solid black;
 }
 
 .link a{
@@ -104,13 +104,13 @@
 ----------------------*/
 
 #cloud-section {
-   
+    background: lightgray;
 }
 
 .content-one {
     width: 50%;
     float: left;
-    padding: 60px 0px;
+    padding: 80px 0px;
 }
 
 .content-one img {
@@ -134,4 +134,56 @@
     margin-left: -140px;
 }
 
+/*----------------------------
+    stay-connected-section
+----------------------------*/
 
+#stay-connected-section {
+    background: url("../images/jumbotron_bg.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.stay-content {
+    padding: 150px 0px;
+}
+
+.stay-content h2 {
+    font-size: 28px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    position: relative;
+    left: 800px;
+}
+
+.stay-content p {
+    font-size: 18px;
+    color: white;
+    font-family: sans-serif;
+    position: relative;
+    left: 640px;
+    top: 10px;
+}
+
+.link-2nd {
+    width: 144px;
+    background: black;
+    padding: 10px 0px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 227px;
+    transition: .5s;
+}
+
+.link-2nd a {
+    text-decoration: none;
+    color: white;
+} 
+
+.link-2nd:hover {
+    background: #1271EE;
+    color: white;
+}
