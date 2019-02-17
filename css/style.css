@@ -147,7 +147,7 @@
 }
 
 .stay-content {
-    padding: 150px 0px;
+    padding: 180px 0px;
 }
 
 .stay-content h2 {
@@ -160,11 +160,11 @@
 }
 
 .stay-content p {
-    font-size: 18px;
+    font-size: 16px;
     color: white;
     font-family: sans-serif;
     position: relative;
-    left: 640px;
+    left: 684px;
     top: 10px;
 }
 
@@ -174,7 +174,7 @@
     padding: 10px 0px;
     text-align: center;
     margin-top: 20px;
-    margin-left: 227px;
+    margin-left: 184px;
     transition: .5s;
 }
 
@@ -186,4 +186,23 @@
 .link-2nd:hover {
     background: #1271EE;
     color: white;
+}
+
+/*----------------------------
+    footer
+----------------------------*/
+
+#footer {
+    background: black;
+}
+
+#footer p {
+        color: white;
+        font-size: 15px;
+        font-family: sans-serif;
+        padding: 50px 0px;
+        margin-left: 212px;
+        position: relative;
+        top: -14px;
+    
 }
